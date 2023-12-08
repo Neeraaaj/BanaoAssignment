@@ -1,0 +1,72 @@
+.header{
+    background: white;
+    width: 100%;
+    margin-top: 20%;
+    display: flex;
+    margin-left: 20%;
+}
+
+.nav > a{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav > a:first-child{
+    font-weight: 600;
+    color: black;
+}
+
+.r-side{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 25%;
+}
+
+.disabled-link {
+    color: rgb(149, 149, 149);
+    pointer-events: none; /* Disable pointer events to prevent interactions */
+    text-decoration: none; /* Remove underline */
+    cursor: not-allowed; /* Show not-allowed cursor */
+  }
+
+  .underline{
+    width: 90px;
+    height: 1px;
+    border-radius: 100px;
+    background: black;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 0.7%;
+  }
+
+ 
+
+@media screen and (max-width: 992px) {
+    .header{
+        margin-top: -0.2%;
+    }
+    
+    .nav > a:first-child{
+        display: inline;
+        margin-left: -85%;
+    }
+
+    .nav > a{
+        display: none;
+    }
+
+    .underline{
+        margin-top: 10%;
+        margin-left: -18%;
+    }
+
+    .r-side{
+        margin-left: -0.2%;
+    }
+}

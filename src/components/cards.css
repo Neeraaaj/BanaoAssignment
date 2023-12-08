@@ -1,0 +1,25 @@
+.card{
+    width: 100%;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+
+@media screen and (max-width: 992px) {
+    .card{
+        margin-left: -0%;
+        margin: 5px;
+    }
+
+    .footer{
+        padding: 10px;
+    }
+
+    .footer > .username{
+        position: absolute;
+        margin-left: -40%;
+    }
+
+    .footer > .views{
+        margin-left: 55%;
+    }
+}
